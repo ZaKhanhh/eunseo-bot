@@ -1,3 +1,7 @@
+import express from 'express';
+const app = express();
+app.get('/', (_req: any, res: any) => res.send('Bot Eunseo đang chạy!'));
+app.listen(process.env.PORT || 3000);
 import 'dotenv/config';
 import { ShardEvents, ShardingManager } from 'discord.js'
 import moment from 'moment';
