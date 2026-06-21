@@ -8,7 +8,7 @@
   "engines": {
     "node": ">=20.0.0"
   },
-  "dependencies": {
+  "dependencies": {"express": "^4.19.2",
     "@napi-rs/canvas": "^0.1.80",
     "async-mutex": "^0.5.0",
     "bad-words": "^3.0.4",
